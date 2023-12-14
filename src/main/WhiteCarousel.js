@@ -71,7 +71,7 @@ const WhiteCarousel = () => {
   return (
     <GalleryContainer>
       <GalleryScroller translateX={currentIndex * -100}>
-        <GalleryItem style={{ opacity: `${currentIndex !== 0 ? 0 : 1}` }}>
+        <GalleryItem>
           <GalleryItemLine>
             <div style={{ display: "flex", alignItems: "center" }}>
               <span
@@ -85,7 +85,7 @@ const WhiteCarousel = () => {
             </div>
           </GalleryItemLine>
         </GalleryItem>
-        <GalleryItem style={{ opacity: `${currentIndex !== 1 ? 0 : 1}` }}>
+        <GalleryItem>
           <GalleryItemLine>
             <div>
               iPhone 11 이상의 모델을 보상 판매하면 iPhone 15 또는 iPhone 15 Pro
@@ -102,7 +102,7 @@ const WhiteCarousel = () => {
             </div>
           </GalleryItemLine>
         </GalleryItem>
-        <GalleryItem style={{ opacity: `${currentIndex !== 2 ? 0 : 1}` }}>
+        <GalleryItem>
           <GalleryItemLine>
             <div style={{ display: "flex", alignItems: "center" }}>
               <span style={{ marginRight: "4px" }}>
