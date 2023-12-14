@@ -96,8 +96,8 @@ export default function CardLCarousel3() {
     <>
       <CardLCarouselTitleContainer>
         <CardLCarouselTitle>
-          <span style={{ color: "#e30000" }}>맞춤 각인.</span>
-          <span>애틋함을 아로새기다.</span>
+          <span style={{ color: "#e30000" }}>간단한 선택.</span>
+          <span>크나큰 고마움을 부담 없이 표현하는 법.</span>
         </CardLCarouselTitle>
       </CardLCarouselTitleContainer>
       <CardLCarouselContainer>
